@@ -11,7 +11,7 @@ Start the application on terminal by these two commands
 
 Google Auth is used for authorisation. Can be accessed only through single mail(currenty using mine).
 
-## Mongo DD
+## Mongo DB
 is used for the backend. Database is divided into following collecions as
 accounts categories orders products sessions users
 
@@ -21,8 +21,10 @@ accounts categories orders products sessions users
 
 ## AWS 
 S3 buckets of AWS is used for file upload.
+![image](https://github.com/p-H-7/E-Commerce-Admin/assets/82563863/40609a7e-f5c3-407e-b452-3dbb9de6ba37)
 
 
+Below are the images of working sites.
 ![image](https://github.com/p-H-7/E-Commerce-Admin/assets/82563863/0cd6dc19-60da-4645-afc7-3a892594dde5)
 
 ![image](https://github.com/p-H-7/E-Commerce-Admin/assets/82563863/633674a1-6dbc-4e1c-9a76-f5a467822ef2)
