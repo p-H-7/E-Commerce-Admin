@@ -1,23 +1,16 @@
+# E-commerce Admin Site
+
 Kickstart by 
-# npm install 
-to install node modules.
+Use the `npm install` command to install dependencies.
 
-Start the application on terminal by these two commands
-# yarn build
+Start the application on terminal by these two commands `yarn build` and `yarn start`
 
-# yarn start
+Nextjs.auth - Google Auth is used for authorisation. Can be accessed only through single mail (currenty using mine).
 
-## Nextjs.auth 
+Mongo DB is used for the backend. Database is divided into following collecions as "accounts", "categories", "orders", "products", "sessions", "users".
 
-Google Auth is used for authorisation. Can be accessed only through single mail(currenty using mine).
+![282325979-baef56f1-da8c-43df-bd5a-9e9ef0e494da](https://github.com/p-H-7/E-Commerce-Admin/assets/82563863/b70380b4-3c38-4633-94e0-4491c0ae2e88)
 
-## Mongo DB
-is used for the backend. Database is divided into following collecions as
-accounts categories orders products sessions users
-
-
-
-![image](https://github.com/p-H-7/E-Commerce-Admin/assets/82563863/baef56f1-da8c-43df-bd5a-9e9ef0e494da)
 
 ## AWS 
 S3 buckets of AWS is used for file upload.
