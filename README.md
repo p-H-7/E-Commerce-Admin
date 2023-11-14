@@ -2,13 +2,20 @@
 
 This is an Admin Dashboard for an E-Commerce [Website](https://github.com/p-H-7/Customer-FrontEnd/edit/main/README.md) .
 
-* [Next.js](https://nextjs.org/) project, [TailwindCSS](https://tailwindcss.com/) is used for styling, [MongoDB](https://www.mongodb.com/) used for backend. An Opensource [NextAuth,js](https://next-auth.js.org/) is used for Google Authentication Login.
+* This is built using [Next.js](https://nextjs.org/) framewrok, [TailwindCSS](https://tailwindcss.com/) is used for styling, [MongoDB](https://www.mongodb.com/) used for database and Node.js is used backend. An Opensource [NextAuth,js](https://next-auth.js.org/) is used for Google Authentication Login.
 
 ## Getting Started
-Kickstart by 
-Use the `npm install` command to install dependencies.
+Kickstart by using  the 
+```bash
+ npm install
+```
+command to install dependencies.
 
-Start the application on terminal by these two commands `yarn build` and `yarn start`
+Start the application on terminal by these two commands
+ ```bash
+ yarn build
+ yarn start
+```
 
 Admin has Login Authentication using Google provider from Nextjs.Auth. Can be accessed only through single mail (currenty using mine).
 *  Dashboard has a display of **View Order Analytics** where list of all orders are shown.
