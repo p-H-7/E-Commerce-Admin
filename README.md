@@ -1,5 +1,7 @@
 # E-commerce Admin Site
 
+This is a [Next.js](https://nextjs.org/) project with [MongoDB](https://www.mongodb.com/) used for backend. An Opensource [NextAuth,js](https://next-auth.js.org/) is used for Google Authentication.
+
 Kickstart by 
 Use the `npm install` command to install dependencies.
 
