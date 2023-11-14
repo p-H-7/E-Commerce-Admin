@@ -16,10 +16,10 @@ Dashboard has a display of **View Order Analytics** where list of all orders are
 
 
 Mongo DB database is divided into following collecions as "accounts", "categories", "orders", "products", "sessions", "users".
-Users and Accounts. As single user can have multiple accounts.
-User Authentication is an array of `provider`,` _id`, `access_token`, `scope`.
-Categories is an array of `category_id`, `name`, `parent`, `properties`.
-Orders is an array of `Order_id`, `date`, `total price`, `paid`.
+* Users and Accounts. As single user can have multiple accounts.
+* User Authentication is an array of `provider`,` _id`, `access_token`, `scope`.
+* Categories is an array of `category_id`, `name`, `parent`, `properties`.
+* Orders is an array of `Order_id`, `date`, `total price`, `paid`.
 
 ![282325979-baef56f1-da8c-43df-bd5a-9e9ef0e494da](https://github.com/p-H-7/E-Commerce-Admin/assets/82563863/b70380b4-3c38-4633-94e0-4491c0ae2e88)
 
