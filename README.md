@@ -1,7 +1,8 @@
 # E-commerce Admin Site
 
 This is an Admin Dashboard for an E-Commerce [Website](https://github.com/p-H-7/Customer-FrontEnd/edit/main/README.md) .
-[Next.js](https://nextjs.org/) project,[TailwindCSS](https://tailwindcss.com/) is used for styling, [MongoDB](https://www.mongodb.com/) used for backend. An Opensource [NextAuth,js](https://next-auth.js.org/) is used for Google Authentication Login.
+
+* [Next.js](https://nextjs.org/) project, [TailwindCSS](https://tailwindcss.com/) is used for styling, [MongoDB](https://www.mongodb.com/) used for backend. An Opensource [NextAuth,js](https://next-auth.js.org/) is used for Google Authentication Login.
 
 ## Getting Started
 Kickstart by 
@@ -11,8 +12,8 @@ Start the application on terminal by these two commands `yarn build` and `yarn s
 
 Admin has Login Authentication using Google provider from Nextjs.Auth. Can be accessed only through single mail (currenty using mine).
 *  Dashboard has a display of **View Order Analytics** where list of all orders are shown.
-*  ***Categories*** page where we can **Add** **delete* or **Edit** Categories and a **Sub Category**.
-*  ***Products***page where we can **Add** **delete* or **Edit** our products into a **Category** and a **Sub Category**.
+*  ***Categories*** page where we can **Add** **delete** or **Edit** Categories and a **Sub Category**.
+*  ***Products*** page where we can **Add** **delete** or **Edit** our products into a **Category** and a **Sub Category**.
 
 
 Mongo DB database is divided into following collecions as "accounts", "categories", "orders", "products", "sessions", "users".
