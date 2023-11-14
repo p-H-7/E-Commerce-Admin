@@ -1,15 +1,25 @@
 # E-commerce Admin Site
 
-This is a [Next.js](https://nextjs.org/) project with [MongoDB](https://www.mongodb.com/) used for backend. An Opensource [NextAuth,js](https://next-auth.js.org/) is used for Google Authentication.
+This is an Admin Dashboard for an E-Commerce [Website](https://github.com/p-H-7/Customer-FrontEnd/edit/main/README.md) .
+[Next.js](https://nextjs.org/) project,[TailwindCSS](https://tailwindcss.com/) is used for styling, [MongoDB](https://www.mongodb.com/) used for backend. An Opensource [NextAuth,js](https://next-auth.js.org/) is used for Google Authentication Login.
 
+## Getting Started
 Kickstart by 
 Use the `npm install` command to install dependencies.
 
 Start the application on terminal by these two commands `yarn build` and `yarn start`
 
-Nextjs.auth - Google Auth is used for authorisation. Can be accessed only through single mail (currenty using mine).
+Admin has Login Authentication using Google provider from Nextjs.Auth. Can be accessed only through single mail (currenty using mine).
+Dashboard has a display of **View Order Analytics** where list of all orders are shown.
+***Categories*** page where we can **Add** **delete* or **Edit** Categories and a **Sub Category**.
+***Product**s page where we can **Add** **delete* or **Edit** our products into a **Category** and a **Sub Category**.
 
-Mongo DB is used for the backend. Database is divided into following collecions as "accounts", "categories", "orders", "products", "sessions", "users".
+
+Mongo DB database is divided into following collecions as "accounts", "categories", "orders", "products", "sessions", "users".
+Users and Accounts. As single user can have multiple accounts.
+User Authentication is an array of `provider`,` _id`, `access_token`, `scope`.
+Categories is an array of `category_id`, `name`, `parent`, `properties`.
+Orders is an array of `Order_id`, `date`, `total price`, `paid`.
 
 ![282325979-baef56f1-da8c-43df-bd5a-9e9ef0e494da](https://github.com/p-H-7/E-Commerce-Admin/assets/82563863/b70380b4-3c38-4633-94e0-4491c0ae2e88)
 
