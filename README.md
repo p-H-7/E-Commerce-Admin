@@ -10,9 +10,9 @@ Use the `npm install` command to install dependencies.
 Start the application on terminal by these two commands `yarn build` and `yarn start`
 
 Admin has Login Authentication using Google provider from Nextjs.Auth. Can be accessed only through single mail (currenty using mine).
-Dashboard has a display of **View Order Analytics** where list of all orders are shown.
-***Categories*** page where we can **Add** **delete* or **Edit** Categories and a **Sub Category**.
-***Product**s page where we can **Add** **delete* or **Edit** our products into a **Category** and a **Sub Category**.
+*  Dashboard has a display of **View Order Analytics** where list of all orders are shown.
+*  ***Categories*** page where we can **Add** **delete* or **Edit** Categories and a **Sub Category**.
+*  ***Product**s page where we can **Add** **delete* or **Edit** our products into a **Category** and a **Sub Category**.
 
 
 Mongo DB database is divided into following collecions as "accounts", "categories", "orders", "products", "sessions", "users".
